@@ -1,4 +1,7 @@
-# Envato Envato-iamy
+# Envato envato-iamy
+
+Homebrew tap for the Envato port of the [IAMy by 99designs](https://github.com/99designs/iamy) too.
+
 
 ## How do I install these formulae?
 
