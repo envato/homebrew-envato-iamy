@@ -1,4 +1,4 @@
-class EnvatoIamy < Formula
+class Iamy < Formula
   desc "Envato fork of 99Designs IAMy IAM Object and S3 Bucket Policy Management tool"
   homepage "https://github.com/envato/iamy"
   url "https://github.com/envato/iamy/archive/refs/tags/v2.4.4.tar.gz"
