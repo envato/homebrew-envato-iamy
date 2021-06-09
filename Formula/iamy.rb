@@ -8,7 +8,7 @@ class Iamy < Formula
 
   bottle do
     root_url "https://github.com/envato/iamy/releases/download/v2.4.4"
-    sha256 cellar: :any_skip_relocation, big_sur: "f89bd6b002969645e1c4b37e5b9994d7add10b1bf946a43a079257dd63ff83df"
+    sha256 cellar: :any_skip_relocation, big_sur:  "f89bd6b002969645e1c4b37e5b9994d7add10b1bf946a43a079257dd63ff83df"
     sha256 cellar: :any_skip_relocation, catalina: "ea7e387dcfe89c8736f5dfeb2e746363672be513183b0197e971805d438fa4be"
   end
 
@@ -16,9 +16,8 @@ class Iamy < Formula
   depends_on "awscli"
 
   def install
-    ENV['CGO_CFLAGS'] = "-mmacosx-version-min=10.15"
-    ENV['CGO_LDFLAGS'] = "-mmacosx-version-min=10.15"
-    system "env"
+    ENV["CGO_CFLAGS"] = "-mmacosx-version-min=10.15"
+    ENV["CGO_LDFLAGS"] = "-mmacosx-version-min=10.15"
     system "go", "build", *std_go_args, "-ldflags",
             "-s -w -X main.Version=v#{version}"
   end
