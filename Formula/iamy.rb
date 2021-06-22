@@ -7,10 +7,8 @@ class Iamy < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-2.5.0+envato"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur:  "5a4e090d42fe76ae51af47c27dad17fee581d3cb974f0fcd11c8796d7045b371"
-    sha256 cellar: :any_skip_relocation, catalina:       "22ee5111191b2ad1951c5624e306e52ec455fe221d7024f310a3813dfd5b9241"
-    sha256 cellar: :any_skip_relocation, big_sur:        "07f196ec85f28f15e8e471dcbe6809f5c3f6987f4494ad35c9843e5c3e64dce8"
+    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-3.0.0+envato"
+    sha256 cellar: :any_skip_relocation, catalina: "76938fbaa764d38436f1b2c210cf4fac3161ab48df6adab92462c590025d900d"
   end
 
   depends_on "go" => :build
