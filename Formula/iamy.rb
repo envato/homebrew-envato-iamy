@@ -10,7 +10,7 @@ class Iamy < Formula
     root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-3.2.1+envato"
     sha256 cellar: :any_skip_relocation, arm64_big_sur: "e83eaa51973e785b2f2b1ed07b7918700b8f426a12a21c891520484a914929b9"
     sha256 cellar: :any_skip_relocation, catalina:      "13f578576a17698d185b932f5b4daceceacab7498a436d3efbce7123183710a7"
-    sha256 cellar: :any_skip_relocation, big_sur:       "63adc9853aa2b2c1b84de749cacd766b66ac7f80e96e775e354709d1a6e54cd1"
+    sha256 cellar: :any_skip_relocation, big_sur:       "648ca9befed1a9dcbce9e412ca620f7accf3df477d68009b68e711f3c16b0cec"
   end
 
   depends_on "go" => :build
