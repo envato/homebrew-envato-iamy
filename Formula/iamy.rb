@@ -1,15 +1,15 @@
 class Iamy < Formula
   desc "Envato fork of 99Designs IAMy IAM Object and S3 Bucket Policy Management tool"
   homepage "https://github.com/envato/iamy"
-  url "https://github.com/envato/iamy/archive/refs/tags/v3.3.0.tar.gz"
-  version "3.3.0+envato"
-  sha256 "d73b22eca95f941df00ed5907130b280626e6680dbf48d693904d7f3d54457d6"
+  url "https://github.com/envato/iamy/archive/refs/tags/v4.0.0.tar.gz"
+  version "4.0.0+envato"
+  sha256 "5e5718e60df9bf549d9885e62e0466c1ddf24b5150980c584cad4f4f1004b8c8"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-3.3.0+envato"
+    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-4.0.0+envato"
     sha256 cellar: :any_skip_relocation, arm64_big_sur: "853b62f3eea171b93d5251f4f6163ff43299783a70eae664ec6871221ea01587"
-    sha256 cellar: :any_skip_relocation, big_sur: "9e70a2f7e168fccd2c69b5f31d5d2dbf8556fb8da31d593a96e8ec40b7537034"
+    sha256 cellar: :any_skip_relocation, big_sur:       "9e70a2f7e168fccd2c69b5f31d5d2dbf8556fb8da31d593a96e8ec40b7537034"
   end
 
   depends_on "go" => :build
