@@ -8,7 +8,8 @@ class Iamy < Formula
 
   bottle do
     root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-5.0.1+envato"
-    sha256 cellar: :any_skip_relocation, big_sur: "cfc1c5bc2590b2639b31fcc5b89e410264c1398072c1b75a85fbd7106575e33c"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "083874449cef41cb569fbf1abf955cdb3960bc0c2afaa69d252c97791c6dcb61"
+    sha256 cellar: :any_skip_relocation, big_sur:       "cfc1c5bc2590b2639b31fcc5b89e410264c1398072c1b75a85fbd7106575e33c"
   end
 
   depends_on "go" => :build
