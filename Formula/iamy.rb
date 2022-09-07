@@ -1,13 +1,13 @@
 class Iamy < Formula
   desc "Envato fork of 99Designs IAMy IAM Object and S3 Bucket Policy Management tool"
   homepage "https://github.com/envato/iamy"
-  url "https://github.com/envato/iamy/archive/refs/tags/v5.0.0.tar.gz"
-  version "5.0.0+envato"
-  sha256 "51e7c053336612ad318dc2b80713377c67f4bd05c2d88482cbd157d5012789ca"
+  url "https://github.com/envato/iamy/archive/refs/tags/v5.0.1.tar.gz"
+  version "5.0.1+envato"
+  sha256 "584d141b9ad3680beffd4d6651e2d726a144c96da254bc819d763d30448ea9e7"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-5.0.0+envato"
+    root_url "https://github.com/envato/homebrew-envato-iamy/releases/download/iamy-5.0.1+envato"
     sha256 cellar: :any_skip_relocation, arm64_big_sur: "9ed87e8cfbe30b222c7db90ce376fb28251764ac0e3135b51aff0dfcdda5b581"
     sha256 cellar: :any_skip_relocation, big_sur:       "ffe76126786921edc0482eb9c5e8d8e556ac60c80171e4d6585e43822b41a185"
   end
